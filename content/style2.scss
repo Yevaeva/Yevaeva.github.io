@@ -387,3 +387,39 @@ height: 2rem;
    
   }
 
+
+  @media screen and (max-width: 768px) {
+    html {
+     font-size: 9px;
+    }
+    .section {
+      // width: 69%;
+
+    }
+    .advansedSearch{
+      flex-wrap: wrap;
+    }
+    table {
+      display: block;
+      tr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+   
+   
+  }
+
+  @media screen and (max-width: 528px) {
+   
+    .section{
+      width: 60%;
+    }
+   
+   table {
+     overflow: scroll;
+   }
+   
+  }
+

@@ -316,5 +316,32 @@ table th {
     width: auto;
   }
 }
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+
+  .advansedSearch {
+    flex-wrap: wrap;
+  }
+
+  table {
+    display: block;
+  }
+  table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 528px) {
+  .section {
+    width: 60%;
+  }
+
+  table {
+    overflow: scroll;
+  }
+}
 
 /*# sourceMappingURL=style2.css.map */
